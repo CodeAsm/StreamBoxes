@@ -4,9 +4,9 @@ auto main (int argc, char* argv[]) -> int
 {
   finalcut::FApplication app(argc, argv);
   finalcut::FDialog dialog(&app);
-  dialog.setText ("About");
+  dialog.setText ("Discord");
   const finalcut::FPoint position{25, 5};
-  const finalcut::FSize size{30, 10};
+  const finalcut::FSize size{20, 10};
   dialog.setGeometry (position, size);
   finalcut::FWidget::setMainWidget(&dialog);
   dialog.show();
